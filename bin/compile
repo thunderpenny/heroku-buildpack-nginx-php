@@ -10,7 +10,7 @@ PHP_VERSION=5.3.27
 # END CONFIG
 
 NGINX_URL="https://s3.amazonaws.com/heroku-buildpack-php-statichtml-proxy/nginx.gz"
-PHP_URL="https://s3.amazonaws.com/heroku-buildpack-php-statichtml-proxy/php-5.3.27.tar.gz"
+PHP_URL="https://s3.amazonaws.com/heroku-buildpack-php-statichtml-proxy/php-5.3.27.gz"
 
 function indent() {
 	  c='s/^/       /'
