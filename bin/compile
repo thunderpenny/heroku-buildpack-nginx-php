@@ -6,11 +6,11 @@ set -o pipefail
 
 # START CONFIG
 NGINX_VERSION=1.3.3
-PHP_VERSION=5.4.5
+PHP_VERSION=5.3.27
 # END CONFIG
 
 NGINX_URL="https://s3.amazonaws.com/heroku-buildpack-php-statichtml-proxy/nginx.gz"
-PHP_URL="https://s3.amazonaws.com/heroku-buildpack-php-statichtml-proxy/php.gz"
+PHP_URL="https://s3.amazonaws.com/heroku-buildpack-php-statichtml-proxy/php-5.3.27-2.tar.gz"
 
 function indent() {
 	  c='s/^/       /'
